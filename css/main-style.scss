@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+@import 'login';
+@import 'signup';
+@import 'login';
+@import 'homepage';
+@import 'eventslist';
+@import 'mixins';
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
+
+>>>>>>> sasha
 $primary-color: #2D2B88;
 $primary-color: #2D2B88;
 // $p-heavy: ;
@@ -9,6 +21,7 @@ $sport-color: #0091FF;
 $flood-color: #FA6400;
 $misc-color: #E02064;
 
+<<<<<<< HEAD
 $font-family: 'Roboto';
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
@@ -69,6 +82,10 @@ $font-family: 'Roboto';
     font-weight: 400;
     @include fontfamily;
 }
+=======
+$font-family: 'Raleway', sans-serif;
+
+>>>>>>> sasha
 
 
 
