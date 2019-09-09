@@ -10,6 +10,11 @@ $primary-color: #2D2B88;
 // $p-heavy: ;
 $primary-color: #333;
 
+$entertainment-color: #6236FF;
+$wellbeing-color: #519607;
+$sport-color: #0091FF;
+$flood-color: #FA6400;
+$misc-color: #E02064;
 
 @mixin h1{
     font-size: 28px;
@@ -53,3 +58,5 @@ $primary-color: #333;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
+
+
