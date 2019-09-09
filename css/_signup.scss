@@ -1,7 +1,11 @@
 $font-stack:    Apple SD Gothic Neo, sans-serif;
 $primary-color: #8400d1;
 
-h3 {
+header{
+	text-align: left;
+}
+
+.page-name {
 	text-align: center;
 	font-family: $font-stack;
 	letter-spacing: 0.1em;
@@ -13,14 +17,8 @@ h3 {
 	margin-bottom: 2.5em;
 }
 
-.container{
-	img {
-		width: 2.2em;
-		   margin: 2em 2.7em 2em 1.2em;
-		   display: block;
-		//    justify-content: left;
-	}
-	
+.fa-arrow-left{
+	font-size: 2em;
 }
 .wrapper{
 	text-align: center;	
@@ -32,7 +30,7 @@ h3 {
 	width: 91%;
 	margin: auto;
 
-	input {
+	.signup-contents-input {
 		border: 1.5px lightgrey solid;
 		height: 3.5em;
 		width: 74%;

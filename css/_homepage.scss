@@ -25,6 +25,10 @@ h6{
     margin-top: 2em;
 }
 
+.event-img{
+  width: 90%;
+}
+
 .header{
 
     border: 1px solid red;
@@ -66,14 +70,13 @@ h6{
 
 .featured-card {
   margin-top: 2em;
-  background-image: linear-gradient(165deg, rgba(0,0,0,0) 43%,$primary-color);
-  background-position: center;
-  background-size: cover;
+  
+  // background-image: linear-gradient(165deg, rgba(0,0,0,0) 43%,$primary-color);
   width: 86%;
   height: 26em;
   background-repeat: no-repeat;
   border-radius: 2em;
-  // border: 3px red solid;
+  border: 1px red solid;
 
   // & after{
   //     background-image: linear-gradient(from bottom, $primary-color, white);
@@ -157,10 +160,28 @@ p {
   border:1px blue solid;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: 5px 6px 21px -5px rgba(0,0,0,0.36);
+}
+
+.info-div{
+  margin-left: 2em;
+  text-align: left;
 }
 
 .upcoming-event-box-icons{
   display: flex;
   flex-wrap: wrap;
-
 }
+
+.upcoming-heading h3{
+  margin: 0 auto;
+}
+
+.share{
+  margin-left:1em;
+}
+
+.category-button{
+  padding: .5em;
+  border: thin 
+} 
