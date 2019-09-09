@@ -1,0 +1,110 @@
+h1 {
+  font-size: 21px;
+  font-weight: 800; }
+
+h6 {
+  font-size: 16px;
+  font-weight: 800; }
+
+.filter-p {
+  font-weight: 400; }
+
+.hi-name {
+  font-weight: 600; }
+
+.container {
+  width: 375px;
+  height: 812px;
+  border: 1px solid black;
+  padding: 3em 2em;
+  margin-top: 2em; }
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.header .header1 {
+  border: 1px solid blue;
+  text-align: left; }
+
+.header .header1 .location {
+  display: flex; }
+
+.header .header1 .location .fas {
+  padding-left: 0.5em;
+  padding-top: 0.25em; }
+
+.header .header2 {
+  border: 1px solid green;
+  text-align: right; }
+
+.header .header2 .filter {
+  display: flex;
+  padding-left: 3em; }
+
+.header .header2 .filter .fas {
+  padding-left: 0.5em;
+  color: #0091FF;
+  font-size: 1.5em; }
+
+.main .featured-card {
+  margin-top: 2em;
+  background-image: linear-gradient(165deg, rgba(0, 0, 0, 0) 43%, #2D2B88), url(img/pic1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 86%;
+  height: 26em;
+  background-repeat: no-repeat;
+  border:1px red solid;
+  border-radius: 2em; }
+
+.main .featured-card .category {
+  text-align: left;
+  margin-top: 16.5em;
+  margin-left: 1em;
+  margin-bottom: 0.7em;
+  justify-content: space-between; }
+
+.main .featured-card .category .fa-bookmark {
+  text-align: right;
+  color: white;
+  margin-left: 3em;
+  font-size: 1.1em; }
+
+.main .featured-card .category .fa-edit {
+  color: white;
+  font-size: 1.1em; }
+
+.main .featured-card button {
+  background-color: white;
+  color: #2D2B88;
+  border-radius: 3em;
+  font-size: 0.85em;
+  padding: 0.4em 1.5em; }
+
+.main .featured-card .event-info {
+  text-align: left;
+  padding: 0 1em; }
+
+.main .featured-card .event-info .date-location {
+  display: flex; }
+
+.main .featured-card .event-info .date-location h2 {
+  color: white;
+  font-size: 0.4em;
+  font-size: 1em; }
+
+.main .featured-card .event-info .date-location .event-date {
+  margin-right: 1em; }
+
+.main .featured-card .event-info .date-location .fas {
+  color: white; }
+
+.main .featured-card .event-info p {
+  margin-bottom: 2em;
+  color: white;
+  font-size: 1.3em; }
+
+/*# sourceMappingURL=homepage.css.map */
