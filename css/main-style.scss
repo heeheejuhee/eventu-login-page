@@ -3,6 +3,13 @@ $primary-color: #2D2B88;
 // $p-heavy: ;
 $primary-color: #333;
 
+$entertainment-color: #6236FF;
+$wellbeing-color: #519607;
+$sport-color: #0091FF;
+$flood-color: #FA6400;
+$misc-color: #E02064;
+
+$font-family: 'Roboto', sans-serif;
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
 @import 'mixins';
@@ -18,44 +25,75 @@ $primary-color: #333;
 @mixin h1{
     font-size: 28px;
     font-weight: 800;
+<<<<<<< HEAD
     @include fontfamily;
+=======
+    font-family: $font-family;
+>>>>>>> sasha
 }
 
 @mixin h2{
     font-size: 21px;
     font-weight: 800;
+<<<<<<< HEAD
     @include fontfamily;
+=======
+    font-family: $font-family;
+>>>>>>> sasha
 }
 
 @mixin h3{
     font-size: 17px;
     font-weight: 800;
+<<<<<<< HEAD
     @include fontfamily;
+=======
+    font-family: $font-family;
+>>>>>>> sasha
 }
 
 @mixin h4{
     font-size: 14px;
     font-weight: 800;
+<<<<<<< HEAD
     @include fontfamily;
+=======
+    font-family: $font-family;
+>>>>>>> sasha
 }
 
 @mixin p14{
     font-size: 14px;
     font-weight: 400;
+<<<<<<< HEAD
     @include fontfamily;
+=======
+    font-family: $font-family;
+>>>>>>> sasha
 }
 
 @mixin p16{
     font-size: 16px;
     font-weight: 400;
+<<<<<<< HEAD
     @include fontfamily;
+=======
+    font-family: $font-family;
+>>>>>>> sasha
 }
 
 @mixin p18{
     font-size: 18px;
     font-weight: 400;
+<<<<<<< HEAD
     @include fontfamily;
 }
 
 
 
+=======
+    font-family: $font-family;
+}
+
+
+>>>>>>> sasha
