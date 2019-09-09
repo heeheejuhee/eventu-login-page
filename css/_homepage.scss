@@ -152,3 +152,15 @@ p {
     width: 5em;
   }
 }
+
+.upcoming-event-box{
+  border:1px blue solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upcoming-event-box-icons{
+  display: flex;
+  flex-wrap: wrap;
+
+}
