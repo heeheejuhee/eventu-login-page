@@ -1,264 +1,40 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css";
-.container {
-  text-align: center; }
-  .container .logo {
-    width: 80%;
-    max-width: 20em;
-    margin-top: 50%;
-    margin-bottom: 6%; }
-  .container .email-contents .welcome {
-    font-family: Apple SD Gothic Neo, sans-serif;
-    letter-spacing: 0.1em; }
-  .container .email-contents input {
-    border: 1.5px lightgrey solid;
-    width: 74%;
-    height: 3em;
-    background-color: #F8F8F8; }
-  .container .email-contents #Email {
-    border-top-left-radius: 0.7em;
-    border-top-right-radius: 0.7em;
-    border-bottom: 0.5px; }
-  .container .email-contents #Password {
-    border-bottom-left-radius: 0.7em;
-    border-bottom-right-radius: 0.7em; }
-  .container .email-contents ::placeholder {
-    font-size: 0.8em;
-    padding-left: 1em;
-    color: grey; }
-  .container .email-contents p {
-    font-size: 0.8em;
-    color: grey;
-    margin-left: 42%;
-    margin-top: 0.5em; }
-  .container .btn {
-    background-color: #8400d1;
-    color: white;
-    padding: 0.6em 6em;
-    border-radius: 25px;
-    margin-top: 6.5em;
-    letter-spacing: 0.1em; }
-  .container .guestlogin {
-    color: grey;
-    font-size: 0.8em; }
-  .container .notice-for-signup {
-    font-size: 0.8em;
-    margin-top: 1.5em; }
-    .container .notice-for-signup p {
-      margin-bottom: 0; }
-    .container .notice-for-signup .red-text {
-      color: red; }
-  .container .space {
-    border-bottom: 1px solid gray;
-    width: 2em;
-    height: 1em;
-    margin: auto; }
-  .container .guestlogin {
-    margin-top: 0.3em; }
+/*
+Error: Invalid CSS after "...rt 'login.scss'": expected "{", was ";"
+        on line 4 of /Users/932400359/Desktop/eventu-login-page/style.scss
 
-.container h3 {
-  text-align: center;
-  font-family: Apple SD Gothic Neo, sans-serif;
-  letter-spacing: 0.1em;
-  display: block;
-  width: 9em;
-  margin: auto;
-  font-size: 24px;
-  margin-top: 4em;
-  margin-bottom: 2.5em; }
-.container img {
-  width: 2.2em;
-  margin: 2em 2.7em 2em 1.2em;
-  display: block; }
-.container .wrapper {
-  text-align: center; }
-  .container .wrapper .signup-contents {
-    display: flex;
-    flex-wrap: wrap;
-    width: 91%;
-    margin: auto; }
-    .container .wrapper .signup-contents input {
-      border: 1.5px lightgrey solid;
-      height: 3.5em;
-      width: 74%;
-      background-color: #F8F8F8;
-      padding: 0.5em; }
-    .container .wrapper .signup-contents #FirstName {
-      width: 50%;
-      border-top-left-radius: 0.7em;
-      border-bottom: 0.5px; }
-    .container .wrapper .signup-contents #LastName {
-      width: 50%;
-      border-top-right-radius: 0.7em;
-      border-bottom: 0.5px;
-      border-left: 0.5px; }
-    .container .wrapper .signup-contents #UserName {
-      width: 100%;
-      border-bottom: 0.5px; }
-    .container .wrapper .signup-contents #EmailAddress {
-      width: 100%;
-      border-bottom: 0.5px; }
-    .container .wrapper .signup-contents #Password {
-      width: 100%;
-      border-bottom-left-radius: 0.7em;
-      border-bottom-right-radius: 0.7em; }
-    .container .wrapper .signup-contents ::placeholder {
-      font-size: 0.8em;
-      padding-left: 1em;
-      color: grey; }
-  .container .wrapper .btn {
-    background-color: #8400d1;
-    color: white;
-    padding: 1em 3.4em;
-    border-radius: 29px;
-    margin-top: 5.5em;
-    letter-spacing: 0.1em; }
+1: @import 'login.scss';
+2: @import 'signup.scss';
+3: <<<<<<< HEAD
+4: @import 'login.scss';
+5: =======
+6: >>>>>>> sean
+7: @import 'homepage.scss';
+8: 
+9: @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
 
-.container {
-  text-align: center; }
-  .container .logo {
-    width: 80%;
-    max-width: 20em;
-    margin-top: 50%;
-    margin-bottom: 6%; }
-  .container .email-contents .welcome {
-    font-family: Apple SD Gothic Neo, sans-serif;
-    letter-spacing: 0.1em; }
-  .container .email-contents input {
-    border: 1.5px lightgrey solid;
-    width: 74%;
-    height: 3em;
-    background-color: #F8F8F8; }
-  .container .email-contents #Email {
-    border-top-left-radius: 0.7em;
-    border-top-right-radius: 0.7em;
-    border-bottom: 0.5px; }
-  .container .email-contents #Password {
-    border-bottom-left-radius: 0.7em;
-    border-bottom-right-radius: 0.7em; }
-  .container .email-contents ::placeholder {
-    font-size: 0.8em;
-    padding-left: 1em;
-    color: grey; }
-  .container .email-contents p {
-    font-size: 0.8em;
-    color: grey;
-    margin-left: 42%;
-    margin-top: 0.5em; }
-  .container .btn {
-    background-color: #8400d1;
-    color: white;
-    padding: 0.6em 6em;
-    border-radius: 25px;
-    margin-top: 6.5em;
-    letter-spacing: 0.1em; }
-  .container .guestlogin {
-    color: grey;
-    font-size: 0.8em; }
-  .container .notice-for-signup {
-    font-size: 0.8em;
-    margin-top: 1.5em; }
-    .container .notice-for-signup p {
-      margin-bottom: 0; }
-    .container .notice-for-signup .red-text {
-      color: red; }
-  .container .space {
-    border-bottom: 1px solid gray;
-    width: 2em;
-    height: 1em;
-    margin: auto; }
-  .container .guestlogin {
-    margin-top: 0.3em; }
-
-h1 {
-  font-size: 21px;
-  font-weight: 800; }
-
-h6 {
-  font-size: 16px;
-  font-weight: 800; }
-
-.filter-p {
-  font-weight: 400; }
-
-.hi-name {
-  font-weight: 600; }
-
-.container {
-  width: 375px;
-  height: 812px;
-  border: 1px solid black;
-  padding: 3em 2em;
-  margin-top: 2em; }
-
-.header {
-  border: 1px solid red;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  .header .header1 {
-    border: 1px solid blue;
-    text-align: left; }
-    .header .header1 .location {
-      display: flex; }
-      .header .header1 .location .fas {
-        padding-left: 0.5em;
-        padding-top: 0.25em; }
-  .header .header2 {
-    border: 1px solid green;
-    text-align: right; }
-    .header .header2 .filter {
-      display: flex;
-      padding-left: 3em; }
-      .header .header2 .filter .fas {
-        padding-left: 0.5em;
-        color: #0091FF;
-        font-size: 1.5em; }
-
-.main .featured-card {
-  margin-top: 2em;
-  background-image: linear-gradient(165deg, rgba(0, 0, 0, 0) 43%, #2D2B88), url(img/bgroundimage.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 86%;
-  height: 26em;
-  background-repeat: no-repeat;
-  border-radius: 2em; }
-  .main .featured-card .category {
-    text-align: left;
-    margin-top: 16.5em;
-    margin-left: 1em;
-    margin-bottom: 0.7em;
-    justify-content: space-between; }
-    .main .featured-card .category .fa-bookmark {
-      text-align: right;
-      color: white;
-      margin-left: 3em;
-      font-size: 1.1em; }
-    .main .featured-card .category .fa-edit {
-      color: white;
-      font-size: 1.1em; }
-  .main .featured-card button {
-    background-color: white;
-    color: #2D2B88;
-    border-radius: 3em;
-    font-size: 0.85em;
-    padding: 0.4em 1.5em; }
-  .main .featured-card .event-info {
-    text-align: left;
-    padding: 0 1em; }
-    .main .featured-card .event-info .date-location {
-      display: flex; }
-      .main .featured-card .event-info .date-location h2 {
-        color: white;
-        font-size: 0.4em;
-        font-size: 1em; }
-      .main .featured-card .event-info .date-location .event-date {
-        margin-right: 1em; }
-      .main .featured-card .event-info .date-location .fas {
-        color: white; }
-    .main .featured-card .event-info p {
-      margin-bottom: 2em;
-      color: white;
-      font-size: 1.3em; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Users/932400359/Desktop/eventu-login-page/style.scss:4
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rt 'login.scss'\": expected \"{\", was \";\"\A         on line 4 of /Users/932400359/Desktop/eventu-login-page/style.scss\A \A 1: @import 'login.scss';\A 2: @import 'signup.scss';\A 3: <<<<<<< HEAD\A 4: @import 'login.scss';\A 5: =======\A 6: >>>>>>> sean\A 7: @import 'homepage.scss';\A 8: \A 9: @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';"; }
