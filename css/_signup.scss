@@ -1,6 +1,10 @@
 $font-stack:    Apple SD Gothic Neo, sans-serif;
 $primary-color: #8400d1;
 
+header{
+	text-align: left;
+}
+
 h3 {
 	text-align: center;
 	font-family: $font-stack;
@@ -13,14 +17,8 @@ h3 {
 	margin-bottom: 2.5em;
 }
 
-.container{
-	img {
-		width: 2.2em;
-		   margin: 2em 2.7em 2em 1.2em;
-		   display: block;
-		//    justify-content: left;
-	}
-	
+.fa-arrow-left{
+	font-size: 2em;
 }
 .wrapper{
 	text-align: center;	
