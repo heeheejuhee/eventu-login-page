@@ -9,7 +9,7 @@
   margin-bottom: 6%; }
 
 .email-contents .welcome {
-  font-family: Apple SD Gothic Neo, sans-serif;
+  font-family: "Apple SD Gothic Neo";
   letter-spacing: 0.1em; }
 .email-contents input {
   border: 1.5px lightgrey solid;
@@ -134,7 +134,7 @@ img {
   margin-bottom: 6%; }
 
 .email-contents .welcome {
-  font-family: Apple SD Gothic Neo, sans-serif;
+  font-family: "Apple SD Gothic Neo";
   letter-spacing: 0.1em; }
 .email-contents input {
   border: 1.5px lightgrey solid;
@@ -293,5 +293,16 @@ p {
   border: 1px green solid; }
   .picture-div img {
     width: 5em; }
+
+h4 {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif; }
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: black; }
 
 /*# sourceMappingURL=main-style.css.map */

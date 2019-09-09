@@ -1,7 +1,9 @@
-@import 'login.scss';
-@import 'signup.scss';
-@import 'login.scss';
-@import 'homepage.scss';
+@import 'login';
+@import 'signup';
+@import 'login';
+@import 'homepage';
+@import 'eventslist';
+@import 'mixins';
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
 
@@ -16,49 +18,7 @@ $sport-color: #0091FF;
 $flood-color: #FA6400;
 $misc-color: #E02064;
 
-$font-family: 'Roboto', sans-serif;
+$font-family: 'Raleway', sans-serif;
 
-@mixin h1{
-    font-size: 28px;
-    font-weight: 800;
-    font-family: $font-family;
-}
-
-@mixin h2{
-    font-size: 21px;
-    font-weight: 800;
-    font-family: $font-family;
-}
-
-@mixin h3{
-    font-size: 17px;
-    font-weight: 800;
-    font-family: $font-family;
-}
-
-
-@mixin h4{
-    font-size: 14px;
-    font-weight: 800;
-    font-family: $font-family;
-}
-
-@mixin p14{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: $font-family;
-}
-
-@mixin p16{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: $font-family;
-}
-
-@mixin p18{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: $font-family;
-}
 
 
