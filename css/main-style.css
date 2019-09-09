@@ -1,6 +1,6 @@
 /*
 Error: Invalid CSS after "@import 'login'": expected "{", was ";"
-        on line 3 of /Users/270023564/Desktop/eventu-login-page/css/main-style.scss
+        on line 3 of /Users/932400663/Desktop/eventu-login-page/css/main-style.scss
 
 1: <<<<<<< HEAD
 2: =======
@@ -12,7 +12,7 @@ Error: Invalid CSS after "@import 'login'": expected "{", was ";"
 8: @import 'mixins';
 
 Backtrace:
-/Users/270023564/Desktop/eventu-login-page/css/main-style.scss:3
+/Users/932400663/Desktop/eventu-login-page/css/main-style.scss:3
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
@@ -36,4 +36,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@import 'login'\": expected \"{\", was \";\"\A         on line 3 of /Users/270023564/Desktop/eventu-login-page/css/main-style.scss\A \A 1: <<<<<<< HEAD\A 2: =======\A 3: @import 'login';\A 4: @import 'signup';\A 5: @import 'login';\A 6: @import 'homepage';\A 7: @import 'eventslist';\A 8: @import 'mixins';"; }
+  content: "Error: Invalid CSS after \"@import 'login'\": expected \"{\", was \";\"\A         on line 3 of /Users/932400663/Desktop/eventu-login-page/css/main-style.scss\A \A 1: <<<<<<< HEAD\A 2: =======\A 3: @import 'login';\A 4: @import 'signup';\A 5: @import 'login';\A 6: @import 'homepage';\A 7: @import 'eventslist';\A 8: @import 'mixins';"; }
