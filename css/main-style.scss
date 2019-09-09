@@ -11,48 +11,51 @@ $primary-color: #333;
 @import 'login';
 @import 'homepage';
 
-
+@mixin fontfamily{
+        font-family: 'Roboto', sans-serif;
+}
 
 @mixin h1{
     font-size: 28px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
 
 @mixin h2{
     font-size: 21px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
 
 @mixin h3{
     font-size: 17px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
-
 
 @mixin h4{
     font-size: 14px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
 
 @mixin p14{
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
 
 @mixin p16{
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
 
 @mixin p18{
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    @include fontfamily;
 }
+
+
 
