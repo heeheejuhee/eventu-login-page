@@ -298,11 +298,99 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #333; }
 
+.addevent-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em 2em; }
+  .addevent-container .header {
+    flex: 0 0 auto;
+    border: 0; }
+  .addevent-container .main {
+    flex: 1 1 auto;
+    padding-top: 2em;
+    overflow-y: scroll; }
+  .addevent-container .footer {
+    margin-top: 1em;
+    flex: 0 0 auto; }
+
+h2 {
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif; }
+
+.event-type-and-location {
+  display: flex;
+  justify-content: space-between; }
+
+.footer i {
+  font-size: 1.3em; }
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: left !important; }
+
+.form-group {
+  text-align: left !important; }
+
+.editevent-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em 2em; }
+  .editevent-container .header {
+    flex: 0 0 auto;
+    border: 0; }
+  .editevent-container .main {
+    flex: 1 1 auto;
+    padding-top: 2em;
+    overflow-y: scroll; }
+  .editevent-container .footer {
+    margin-top: 1em;
+    flex: 0 0 auto; }
+
+h2 {
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif; }
+
+.event-type-and-location {
+  display: flex;
+  justify-content: space-between; }
+
+.footer i {
+  font-size: 1.3em; }
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: left !important; }
+
+.form-group {
+  text-align: left !important; }
+
 .container {
-  width: 375px;
-  height: 812px;
-  border: 1px solid black;
-  padding: 3em 2em;
-  margin-top: 2em; }
+  height: 100vh;
+  display: flex;
+  border: 0;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em 2em;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px red solid; }
+  .container .header {
+    flex: 0 0 auto; }
+  .container .main {
+    flex: 1 1 auto;
+    overflow-y: scroll; }
+  .container .footer {
+    margin-top: 1em;
+    flex: 0 0 auto; }
 
 /*# sourceMappingURL=main-style.css.map */

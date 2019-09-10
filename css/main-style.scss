@@ -12,13 +12,30 @@ $font-family: 'Raleway', sans-serif;
 @import 'signup';
 @import 'homepage';
 @import 'eventslist';
+@import 'addevent';
+@import 'editevent';
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
 
-.container {
-	width: 375px;
-	height: 812px;
-	border: 1px solid black;
-	padding: 3em 2em;
-	margin-top: 2em;
+.container{
+    height: 100vh;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    margin:0;
+    padding:1em 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+    border:1px red solid;
+    .header{
+        flex:0 0 auto;
+    }
+    .main{
+        flex:1 1 auto;
+        overflow-y:scroll;
+    }
+    .footer{
+        margin-top:1em;
+        flex:0 0 auto;
+    }
 }
