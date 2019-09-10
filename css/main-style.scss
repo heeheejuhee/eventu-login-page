@@ -1,11 +1,3 @@
-@import 'login';
-@import 'signup';
-@import 'homepage';
-@import 'eventslist';
-@import 'mixins';
-
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
-
 $primary-color: #2D2B88;
 $secondary-color: #333;
 $entertainment-color: #6236FF;
@@ -15,8 +7,35 @@ $flood-color: #FA6400;
 $misc-color: #E02064;
 $font-family: 'Raleway';
 
+@import 'mixins';
+@import 'login';
+@import 'signup';
+@import 'homepage';
+@import 'eventslist';
+@import 'addevent';
+@import 'editevent';
 
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
 
-
-
-
+.container{
+    height: 100vh;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    margin:0;
+    padding:1em 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+    border:1px red solid;
+    .header{
+        flex:0 0 auto;
+    }
+    .main{
+        flex:1 1 auto;
+        overflow-y:scroll;
+    }
+    .footer{
+        margin-top:1em;
+        flex:0 0 auto;
+    }
+}
