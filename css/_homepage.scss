@@ -1,5 +1,6 @@
-$font-stack: 'Apple SD Gothic Neo';
+$font-family: 'Montserrat', sans-serif;
 $primary-color: #2d2b88;
+@import 'mixins';
 
 h1 {
 	font-size: 21px;
@@ -17,6 +18,7 @@ h6 {
 .hi-name {
 	font-weight: 600;
 }
+
 // .container will override any other modules that use the same '.container' selector. Change to '.homepage-container'
 
 .event-img {
@@ -94,7 +96,7 @@ h6 {
 	}
 }
 
-button {
+.category-noborder {
 	background-color: white;
 	color: $primary-color;
 	border-radius: 3em;
@@ -171,6 +173,5 @@ p {
 }
 
 .category-button {
-	padding: 0.5em;
-	border: thin;
+	@include category-button;
 }

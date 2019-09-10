@@ -1,20 +1,49 @@
 @import 'mixins';
 
-.entertainment{
-	color: $entertainment-color;
-	padding: 0.6em 6em;
-	border-color: $entertainment-color;
-	border-radius: 25px;
-	margin-top: 6.5em;
-	letter-spacing: 0.1em;
-}
+// .entertainment-button{
+// 	@include category-button;
+// 	color: $entertainment-color;
+// }
 
+.card{
+	text-align: left;
+	border: none;
+	
+	.card-body{
+		padding: 0;
+		margin: 0;
+	}
+
+}
 
 h4 {
 	@include h4;
 }
 
-p {
+.eventlist-location{
 	@include p14;
-	color: black;
+	color: $entertainment-color;
+	width: 6em;
+	border-bottom: 3px solid $secondary-color;
+	padding-bottom: 1em;
+}
+
+h3{
+	@include h3;
+}
+
+.like{
+	text-align: right;
+	letter-spacing: 0.4em;
+}
+
+.p-eventlist-description{
+	@include p16;
+	color: $secondary-color;
+	margin-top: 1.5em;
+}
+
+.readmore{
+	@include p14;
+	color: $secondary-color;
 }

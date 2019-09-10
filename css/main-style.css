@@ -195,7 +195,7 @@ h6 {
     color: white;
     font-size: 1.1em; }
 
-button {
+.category-noborder {
   background-color: white;
   color: #2d2b88;
   border-radius: 3em;
@@ -251,27 +251,52 @@ p {
   margin-left: 1em; }
 
 .category-button {
-  padding: 0.5em;
-  border: thin; }
+  padding: 0.2em 0.6em;
+  border: 1px solid #6236FF;
+  border-radius: 25px; }
 
-.entertainment {
-  color: #6236FF;
-  padding: 0.6em 6em;
-  border-color: #6236FF;
-  border-radius: 25px;
-  margin-top: 6.5em;
-  letter-spacing: 0.1em; }
+.card {
+  text-align: left;
+  border: none; }
+  .card .card-body {
+    padding: 0;
+    margin: 0; }
 
 h4 {
   font-size: 14px;
-  font-weight: 800;
-  font-family: "Raleway"; }
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
 
-p {
+.eventlist-location {
   font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #6236FF;
+  width: 6em;
+  border-bottom: 3px solid #333;
+  padding-bottom: 1em; }
+
+h3 {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif; }
+
+.like {
+  text-align: right;
+  letter-spacing: 0.4em; }
+
+.p-eventlist-description {
+  font-size: 16px;
   font-weight: 400;
-  font-family: "Raleway";
-  color: black; }
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  margin-top: 1.5em; }
+
+.readmore {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #333; }
 
 .container {
   width: 375px;
