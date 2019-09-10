@@ -11,6 +11,16 @@ $font-family: 'Raleway';
     letter-spacing: 0.1em;
 }
 
+@mixin entertainmentbutton(){
+
+    background-color: $primary-color;
+    color: white;
+    padding: 0.6em 6em;
+    border-radius: 25px;
+    margin-top: 6.5em;
+    letter-spacing: 0.1em;
+}
+
 @mixin h1{
     font-size: 28px;
     font-weight: 800;
@@ -30,7 +40,7 @@ $font-family: 'Raleway';
 }
 
 
-@mixin four{
+@mixin h4{
     font-size: 14px;
     font-weight: 800;
     font-family: $font-family;
