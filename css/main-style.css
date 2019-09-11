@@ -303,4 +303,75 @@ p {
   display: flex;
   flex-wrap: wrap; }
 
+body {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0;
+  padding: 0; }
+
+.image-section {
+  background-image: url(../assets/img/singing.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 2em; }
+  .image-section .fas {
+    font-size: 30px; }
+  .image-section .entertainment {
+    background-color: white;
+    border-radius: 15.5px;
+    color: #2D2B88;
+    font-family: "Apple SD Gothic Neo";
+    border: 1px solid #2D2B88;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    padding: 0 1em;
+    text-align: center;
+    font-weight: 600; }
+
+.text-contents {
+  padding: 0 1.7em;
+  font-family: Avenir, sans-serif; }
+  .text-contents .title {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .text-contents .icons {
+    margin-left: 5em; }
+  .text-contents i {
+    font-size: 1.3em;
+    margin-left: 13px; }
+  .text-contents .explanation {
+    font-weight: 500; }
+    .text-contents .explanation p {
+      margin: 0;
+      font-size: 18px;
+      color: black;
+      text-align: left; }
+  .text-contents a {
+    text-decoration: none;
+    color: #2D2B88;
+    margin-left: 0.7em; }
+  .text-contents .date-info {
+    display: flex;
+    margin-top: 2em; }
+  .text-contents .info {
+    padding-left: 1em; }
+  .text-contents h4 {
+    color: #2D2B88;
+    margin: 0;
+    text-align: left; }
+  .text-contents p {
+    font-size: 16px;
+    color: black;
+    text-align: left; }
+
 /*# sourceMappingURL=main-style.css.map */
