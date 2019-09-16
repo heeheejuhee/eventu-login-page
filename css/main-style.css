@@ -239,7 +239,6 @@ h6 {
 }
 
 .header {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,7 +250,6 @@ h6 {
 }
 
 .header1 {
-  border: 1px solid blue;
   text-align: left;
 }
 
@@ -267,7 +265,6 @@ h6 {
 }
 
 .header2 {
-  border: 1px solid green;
   text-align: right;
 }
 
@@ -358,16 +355,11 @@ p {
   border: 1px red solid;
 }
 
-.picture-div {
-  border: 1px green solid;
-}
-
 .picture-div img {
   width: 5em;
 }
 
 .upcoming-event-box {
-  border: 1px blue solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,7 +387,7 @@ p {
 }
 
 .share {
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 .category-button {
@@ -637,6 +629,65 @@ label {
   line-height: 3em;
   cursor: pointer;
   border: none;
+}
+
+.savedEvents-title i {
+  margin-left: 0.25em;
+}
+
+.header2 .filter-p {
+  color: black;
+}
+
+.savedEvents-container .header {
+  margin-top: 1em;
+}
+
+.savedEvents-container .upcoming-heading {
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+}
+
+.savedEvents-container ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.savedEvents-container .upcoming-event-box {
+  padding: 0.75em;
+  position: relative;
+  margin: 1em 0;
+  -webkit-box-shadow: 0 0 0.75em -0.5em rgba(0, 0, 0, 0.35);
+          box-shadow: 0 0 0.75em -0.5em rgba(0, 0, 0, 0.35);
+}
+
+.savedEvents-container .upcoming-event-name {
+  font-weight: 700;
+}
+
+.savedEvents-container .upcoming-event-location {
+  font-weight: 300;
+  color: #9a9db0;
+}
+
+.savedEvents-container .upcoming-event-box-icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  font-size: 1.25em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.savedEvents-container .category-button {
+  margin-top: 1em;
+  font-size: 0.8em;
+  text-align: center;
+  color: #0091FF;
+  border: 1px solid #0091FF;
 }
 
 .container {

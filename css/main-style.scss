@@ -8,6 +8,7 @@ $wellbeing-color: #519607;
 $sport-color: #0091FF;
 $flood-color: #FA6400;
 $misc-color: #E02064;
+$light-gray: #9a9db0;
 $font-family: 'Montserrat', sans-serif;
 
 @import 'mixins';
@@ -18,7 +19,7 @@ $font-family: 'Montserrat', sans-serif;
 @import 'addevent';
 @import 'editevent';
 @import 'menu';
-
+@import 'savedEvents';
 
 
 .container{
