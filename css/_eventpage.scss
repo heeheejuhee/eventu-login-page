@@ -1,0 +1,58 @@
+.eventpage-container{
+    padding: 0 !important;
+    border: 0 !important;
+    margin: 0 !important;
+}
+
+.eventpage-header{
+    position: absolute;
+    width: 360px;
+    padding: 1.5em;
+}
+.eventpage-category{
+    @include category-button;
+    top: 1.5em;
+    right: 1.5em;
+    position: absolute;
+}
+.card{
+    width: 375px !important;
+    margin-top: 0 !important;
+}
+
+.card-body{
+    padding: 2em !important;
+    margin-top: 1em !important;
+}
+.card-text{
+    color: black;
+}
+
+.detail-section{
+    .details{
+        color: $primary-color;
+        margin: 0 !important;
+    }
+
+    .detail{
+        color: black;
+    }
+}
+
+.input-group{
+    padding: 1em 2em;
+}
+
+.footer{
+    padding: 2em;
+}
+
+.username{
+    color: $primary-color;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+.comment{
+    font-size: 16px;
+}
