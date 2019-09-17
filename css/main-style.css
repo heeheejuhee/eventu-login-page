@@ -447,6 +447,24 @@ label {
   color: #0091FF;
   border: 1px solid #0091FF; }
 
+.user-list {
+  font-family: "Montserrat", sans-serif; }
+  .user-list .fas {
+    text-align: left; }
+  .user-list .userpage-details {
+    margin: .5em 0;
+    text-align: left;
+    line-height: 1.5em;
+    border-bottom: thin grey solid; }
+  .user-list .edit-platform {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: .3em; }
+  .user-list .user-delete {
+    margin-left: 1em; }
+  .user-list .far {
+    font-size: 1.2em; }
+
 .container {
   height: 100vh;
   display: flex;
