@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css');
+
 $primary-color: #2D2B88;
 $secondary-color: #333;
 $entertainment-color: #6236FF;
@@ -5,7 +8,8 @@ $wellbeing-color: #519607;
 $sport-color: #0091FF;
 $flood-color: #FA6400;
 $misc-color: #E02064;
-$font-family: 'Raleway', sans-serif;
+$light-gray: #9a9db0;
+$font-family: 'Montserrat', sans-serif;
 
 @import 'mixins';
 @import 'login';
@@ -13,13 +17,33 @@ $font-family: 'Raleway', sans-serif;
 @import 'homepage';
 @import 'eventslist';
 @import 'eventpage';
+@import 'addevent';
+@import 'editevent';
+@import 'menu';
+@import 'savedEvents';
+@import 'userList';
 
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css';
 
-.container {
-	width: 375px;
-	height: 812px;
-	border: 1px solid black;
-	padding: 3em 2em;
-	margin-top: 2em;
+
+.container{
+    height: 100vh;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    margin:0;
+    padding:1em 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+    border:1px red solid;
+    .header{
+        flex:0 0 auto;
+    }
+    .main{
+        flex:1 1 auto;
+        overflow-y:scroll;
+    }
+    .footer{
+        margin-top:1em;
+        flex:0 0 auto;
+    }
 }

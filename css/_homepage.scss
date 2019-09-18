@@ -26,14 +26,12 @@ h6 {
 }
 
 .header {
-	border: 1px solid red;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .header1 {
-	border: 1px solid blue;
 	text-align: left;
 
 	.location {
@@ -47,7 +45,6 @@ h6 {
 }
 
 .header2 {
-	border: 1px solid green;
 	text-align: right;
 
 	.filter {
@@ -139,7 +136,6 @@ p {
 
 .picture-div {
 	// background-image: url(../assets/img/pic2.jpg)
-	border: 1px green solid;
 	// height: 5em;
 
 	img {
@@ -148,7 +144,6 @@ p {
 }
 
 .upcoming-event-box {
-	border: 1px blue solid;
 	display: flex;
 	flex-wrap: wrap;
 	box-shadow: 5px 6px 21px -5px rgba(0, 0, 0, 0.36);
@@ -169,7 +164,7 @@ p {
 }
 
 .share {
-	margin-left: 1em;
+	margin-left: 0.5em;
 }
 
 .category-button {
