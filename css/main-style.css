@@ -239,249 +239,75 @@ p {
   display: flex;
   flex-wrap: wrap; }
 
-.upcoming-heading h3 {
-  margin: 0 auto; }
-
-.share {
-  margin-left: 0.5em; }
-
-.category-button {
-  padding: 0.2em 0.6em;
-  border: 1px solid #6236FF;
-  border-radius: 25px; }
-
-.card {
-  text-align: left;
-  border: none; }
-  .card .card-body {
-    padding: 0;
-    margin: 0; }
-
-h4 {
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif; }
-
-.eventlist-location {
-  font-size: 14px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  color: #6236FF;
-  width: 6em;
-  border-bottom: 3px solid #333;
-  padding-bottom: 1em; }
-
-h3 {
-  font-size: 17px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif; }
-
-.like {
-  text-align: right;
-  letter-spacing: 0.4em; }
-
-.p-eventlist-description {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  color: #333;
-  margin-top: 1.5em; }
-
-.readmore {
-  font-size: 14px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  color: #333; }
-
-.addevent-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+body {
   margin: 0;
-  padding: 1em 2em; }
-  .addevent-container .header {
-    flex: 0 0 auto;
-    border: 0; }
-  .addevent-container .main {
-    flex: 1 1 auto;
-    padding-top: 2em;
-    overflow-y: scroll; }
-  .addevent-container .footer {
-    margin-top: 1em;
-    flex: 0 0 auto; }
-
-h2 {
-  font-size: 21px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif; }
-
-.event-type-and-location {
-  display: flex;
-  justify-content: space-between; }
-
-.footer i {
-  font-size: 1.3em; }
-
-label {
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  text-align: left !important; }
-
-.form-group {
-  text-align: left !important; }
-
-.editevent-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 1em 2em; }
-  .editevent-container .header {
-    flex: 0 0 auto;
-    border: 0; }
-  .editevent-container .main {
-    flex: 1 1 auto;
-    padding-top: 2em;
-    overflow-y: scroll; }
-  .editevent-container .footer {
-    margin-top: 1em;
-    flex: 0 0 auto; }
-
-h2 {
-  font-size: 21px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif; }
-
-.event-type-and-location {
-  display: flex;
-  justify-content: space-between; }
-
-.footer i {
-  font-size: 1.3em; }
-
-label {
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  text-align: left !important; }
-
-.form-group {
-  text-align: left !important; }
-
-.close {
-  position: relative;
-  width: 2.25em;
-  flex: 0 0 2.25em;
-  opacity: 0.3; }
-
-.close:hover {
-  opacity: 1; }
-
-.close:before, .close:after {
-  position: absolute;
-  top: 20%;
-  left: 48%;
-  content: ' ';
-  height: 2em;
-  width: 0.11em;
-  background-color: #333; }
-
-.close:before {
-  transform: rotate(45deg); }
-
-.close:after {
-  transform: rotate(-45deg); }
-
-.menu-list-container {
-  flex: 1 0 auto;
-  padding-top: 2em; }
-
-.menu-list {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  height: 100%; }
-
-.menu-items {
-  font-size: 1.15em;
-  line-height: 3em;
-  cursor: pointer;
-  border: none; }
-
-.savedEvents-title i {
-  margin-left: 0.25em; }
-
-.header2 .filter-p {
-  color: black; }
-
-.savedEvents-container .header {
-  margin-top: 1em; }
-.savedEvents-container .upcoming-heading {
-  text-align: left;
-  cursor: pointer;
-  background-color: white; }
-.savedEvents-container ::-webkit-scrollbar {
-  width: 0px;
-  background: transparent; }
-.savedEvents-container .upcoming-event-box {
-  padding: 0.75em;
-  position: relative;
-  margin: 1em 0;
-  box-shadow: 0 0 0.75em -0.5em rgba(0, 0, 0, 0.35); }
-.savedEvents-container .upcoming-event-name {
-  font-weight: 700; }
-.savedEvents-container .upcoming-event-location {
-  font-weight: 300;
-  color: #9a9db0; }
-.savedEvents-container .upcoming-event-box-icons {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 1em;
-  font-size: 1.25em;
-  justify-content: center; }
-.savedEvents-container .category-button {
-  margin-top: 1em;
-  font-size: 0.8em;
-  text-align: center;
-  color: #0091FF;
-  border: 1px solid #0091FF; }
-
-.user-list {
-  font-family: "Montserrat", sans-serif; }
-  .user-list .fas {
-    text-align: left; }
-  .user-list .userpage-details {
-    margin: .5em 0;
-    text-align: left;
-    line-height: 1.5em;
-    border-bottom: thin grey solid; }
-  .user-list .edit-platform {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: .3em; }
-  .user-list .user-delete {
-    margin-left: 1em; }
-  .user-list .far {
-    font-size: 1.2em; }
+  padding: 0; }
 
 .container {
-  height: 100vh;
-  display: flex;
-  border: 0;
-  flex-direction: column;
   margin: 0;
-  padding: 1em 2em;
+  padding: 0; }
+
+.image-section {
+  background-image: url(../assets/img/singing.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   box-sizing: border-box;
-  overflow: hidden;
-  border: 1px red solid; }
-  .container .header {
-    flex: 0 0 auto; }
-  .container .main {
-    flex: 1 1 auto;
-    overflow-y: scroll; }
-  .container .footer {
-    margin-top: 1em;
-    flex: 0 0 auto; }
+  padding: 2em; }
+  .image-section .fas {
+    font-size: 30px; }
+  .image-section .entertainment {
+    background-color: white;
+    border-radius: 15.5px;
+    color: #2D2B88;
+    font-family: "Apple SD Gothic Neo";
+    border: 1px solid #2D2B88;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    padding: 0 1em;
+    text-align: center;
+    font-weight: 600; }
+
+.text-contents {
+  padding: 0 1.7em;
+  font-family: Avenir, sans-serif; }
+  .text-contents .title {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .text-contents .icons {
+    margin-left: 5em; }
+  .text-contents i {
+    font-size: 1.3em;
+    margin-left: 13px; }
+  .text-contents .explanation {
+    font-weight: 500; }
+    .text-contents .explanation p {
+      margin: 0;
+      font-size: 18px;
+      color: black;
+      text-align: left; }
+  .text-contents a {
+    text-decoration: none;
+    color: #2D2B88;
+    margin-left: 0.7em; }
+  .text-contents .date-info {
+    display: flex;
+    margin-top: 2em; }
+  .text-contents .info {
+    padding-left: 1em; }
+  .text-contents h4 {
+    color: #2D2B88;
+    margin: 0;
+    text-align: left; }
+  .text-contents p {
+    font-size: 16px;
+    color: black;
+    text-align: left; }
 
 /*# sourceMappingURL=main-style.css.map */
